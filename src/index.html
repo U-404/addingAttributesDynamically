@@ -9,9 +9,11 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
+
   <body>
     <div class="main">
       <div class="card product">
+
         <div class="card-image">
           <figure class="image is-4by3">
             <img
@@ -20,6 +22,7 @@
             />
           </figure>
         </div>
+
         <div class="card-content">
           <div class="media">
             <div class="media-left">
@@ -30,6 +33,7 @@
                 />
               </figure>
             </div>
+
             <div class="media-content">
               <p class="title is-4">Aged Cheddar</p>
               <p class="subtitle is-6 price">$8,95</p>
@@ -43,8 +47,13 @@
             <br />
             <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
           </div>
+
         </div>
       </div>
     </div>
+
+    <script>
+      document.querySelector(".product").setAttribute("data-price", "$8,95");
+    </script>
   </body>
 </html>
